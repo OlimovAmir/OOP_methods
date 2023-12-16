@@ -23,7 +23,7 @@ namespace OOP_methods
 
             if (speed < 0)
             {
-                Console.WriteLine($"Едем назад с скоростью {speed} км\\ч");
+                Console.WriteLine($"Едем назад с скоростью {-speed} км\\ч");
             }
 
            

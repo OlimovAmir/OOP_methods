@@ -38,5 +38,13 @@ class Program
         car.Stop();
         car.PrintSreed();
 
+
+        Console.WriteLine("\t== Car2 ==");
+        var car2 = new OOP_methods.Car();
+        car2.PrintSreed();
+        car2.DriveBackward();
+        car2.PrintSreed();
+        
+
     }
 }
