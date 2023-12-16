@@ -33,9 +33,9 @@ namespace OOP_methods
             Console.WriteLine($"group: {group}");
         }
         
-        public string GetFullName()
+        public void GetFullName()
         {
-            return $"{firstName} {lastName} {middleName}";
+            Console.WriteLine($"{firstName} {lastName} {middleName}");
         }
 
     }

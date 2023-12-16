@@ -19,7 +19,7 @@ class Program
         return student;
     }
 
-    //OOP_methods.Student student1 = new OOP_methods.Student();
+    OOP_methods.Car car = new OOP_methods.Car();
     static void Main(string[] args)
     {
         var student = GetStudent();
@@ -27,6 +27,16 @@ class Program
         student.Print();
 
         student.GetFullName();
-        
+
+        Console.WriteLine("\t== Car1 ==");
+        var car = new OOP_methods.Car();
+        car.PrintSreed();
+        car.DriveFoward();
+        car.PrintSreed();
+        car.DriveBackward();
+        car.PrintSreed();
+        car.Stop();
+        car.PrintSreed();
+
     }
 }
